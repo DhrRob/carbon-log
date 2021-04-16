@@ -7,7 +7,7 @@
  * so that it is ready for translation.
  *
  * @link       https://robmigchels.com
- * @since      1.0.0
+ * @since      0.1.0
  *
  * @package    Carbon_Log
  * @subpackage Carbon_Log/includes
@@ -19,7 +19,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @since      1.0.0
+ * @since      0.1.0
  * @package    Carbon_Log
  * @subpackage Carbon_Log/includes
  * @author     Rob Migchels <rob@migchels.me>
@@ -30,7 +30,7 @@ class Carbon_Log_i18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    1.0.0
+	 * @since    0.1.0
 	 */
 	public function load_plugin_textdomain() {
 

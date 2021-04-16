@@ -6,7 +6,7 @@
  * This file is used to markup the public-facing aspects of the plugin.
  *
  * @link       https://robmigchels.com
- * @since      1.0.0
+ * @since      0.1.0
  *
  * @package    Carbon_Log
  * @subpackage Carbon_Log/public/partials
