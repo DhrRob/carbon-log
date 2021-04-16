@@ -99,4 +99,24 @@ class Carbon_Log_Admin {
 
 	}
 
+	/**
+	 * Registers the "Carbon Log" settings page underneath tools.php.
+	 */
+	public function register_settings_page() {
+		add_management_page(
+			__( 'Carbon Log', 'carbon-log' ),
+			__( 'Carbon Log', 'carbon-log' ),
+			'edit_pages',
+			'carbon-log',
+			array( $this, 'settings_page_render' )
+		);
+	}
+
+	/**
+	 * Load the content of the "Carbon Log" settings page.
+	 */
+	public function settings_page_render() {
+		include_once plugin_dir_path( __FILE__ ) . 'partials/carbon-log-admin-display.php';
+	}
+
 }
